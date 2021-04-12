@@ -25,7 +25,7 @@ html {
   overflow-y: scroll;
   background-image: url("http://sebsauvage.net/galerie/photos/Wallpapers/vladstudio.com/vladstudio_where_tahrs_live_2880x1800_signed.jpg");
   font-family: "Titillium Web", sans-serif;
-  color: #cf4f4f;
+  color: #52ab98;
 }
 
 body {
@@ -35,8 +35,8 @@ body {
   left: 50%;
   margin: 0px 0;
   transform: translate(-50%, 0);
-  box-shadow: 0 10px 0 0 #ff6873 inset;
-  background-color: #1a191a;
+  box-shadow: 0 10px 0 0 #52ab98 inset;
+  background-color: #2b6777;
   max-width: 100%;
   padding: 30px;
 }
@@ -52,11 +52,11 @@ body {
 }
 
 .rules h1, h2 {
-  color: #cf4f4f;
+  color: #f2f2f2;
 }
 
 .rules h1 {
-  text-transform: uppercase;
+
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 42px;
@@ -71,7 +71,7 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   display: block;
-  background-color: #1a191a;
+  background-color: #2b6777;
   padding: 10px;
   height : 100%
   cursor: pointer;
@@ -84,7 +84,7 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   display: block;
-  background-color: #1a191a;
+  background-color: #2b6777;
   padding: 10px;
   height : 100%
   cursor: pointer;

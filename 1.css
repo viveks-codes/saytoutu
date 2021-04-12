@@ -1,5 +1,5 @@
             body {
-                   background-color: #1A004A;
+                   background-color: #2b6777;
                 }
             }
             .text-align{
@@ -40,12 +40,12 @@
                 width: 50%;
                 border-radius: 1rem;
                 padding: 1.5%;
-                color: #800080;
-                background-color: #3500D3;
+                color: #2b6777;
+                background-color: #c8d8e4;
                 border: none;
                 cursor: pointer;
                 margin-right: 6%;
-                color: rgb(246, 246, 252);
+                color: #2b6777;
                 margin-top: 4%;
             }
 .form__group {
@@ -118,7 +118,7 @@ select {
   outline: 0;
   box-shadow: none;
   border: 0 !important;
-  background: #2c3e50;
+  
   background-image: none;
 }
 /* Remove IE arrow */
@@ -133,15 +133,15 @@ select::-ms-expand {
   width : auto;
   height: 3em;
   line-height: 3;
-  background: #2c3e50;
   overflow: hidden;
   border-radius: .25em;
 }
 select {
   flex: 1;
   padding: 0 .5em;
-  color: #fff;
+  color: #2b6777;
   cursor: pointer;
+  
 }
 
 /* Arrow */
@@ -151,7 +151,7 @@ select {
   top: 0;
   right: 0;
   padding: 0 1em;
-  background: #34495e;
+  background: #c8d8e4
   cursor: pointer;
   pointer-events: none;
   -webkit-transition: .25s all ease;
@@ -160,7 +160,8 @@ select {
 }
 /* Transition */
 .select:hover::after {
-  color: #f39c12;
+  color: #2b6777;
+  background-color : #c8d8e4;
 }
 /* reset input */
  .form_field:required, .form_field:invalid {
