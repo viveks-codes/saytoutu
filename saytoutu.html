@@ -31,8 +31,8 @@
           
 		 <div class="select">
   <select name="dept" id="slct" required=".">
-    <option value="" disabled="" selected="" >Department of a Person</option>
-<option value="false">Not want to mention</option>
+<option value="" disabled="" selected="" >Department of a Person</option>
+<option value="Not want to mention">Not want to mention</option>
 <option value="Computer">Computer</option>
 <option value="AI&DC">AI&DC</option>
 <option value="Civil">Civil</option>
@@ -116,9 +116,9 @@
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .then(response => alert("Thanks! Your Confession has been recorded!"))
                 .catch(error => console.error('Error!', error.message))
-                                window.location.href="thankyou.html";
+                                setTimeout("location.href = 'thankyou.html';",5000);
                     })
           </script>
 
