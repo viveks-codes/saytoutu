@@ -56,9 +56,10 @@ Technologies Used- PYTHON3, Pandas , HTML5, CSS3, JAVASCRIPT, PYTHON3, GOOGLE SH
                 padding: 1.5%;
                 color: #2b6777;
                 background-color: #c8d8e4;
-                border: none;
+                border: 0 none;
                 cursor: pointer;
                 margin-right: 6%;
+                -webkit-border-radius: 5px;
                 color: #2b6777;
                 margin-top: 4%;
             }
@@ -69,7 +70,7 @@ Technologies Used- PYTHON3, Pandas , HTML5, CSS3, JAVASCRIPT, PYTHON3, GOOGLE SH
 	 width: 50%;
 }
  .form__field {
-	` font-family: inherit;
+	 font-family: inherit;
 	 width: 300px;
 	 border: 0;
 	 border-bottom: 2px solid #9b9b9b;
@@ -165,7 +166,7 @@ select {
   top: 0;
   right: 0;
   padding: 0 1em;
-  background: #c8d8e4
+  background: #c8d8e4;
   cursor: pointer;
   pointer-events: none;
   -webkit-transition: .25s all ease;
