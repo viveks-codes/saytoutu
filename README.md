@@ -14,7 +14,6 @@
 
 👤 **Vivek Patel, Niken Goswami, Hunaid Nakhuda**
 
-* Website: https://vivolscute.github.io/
 * LinkedIn: [@Vivek Patel](https://linkedin.com/in/vivek-patel-0553731a5)
 * LinkedIn: [@Niken Goswami](https://www.linkedin.com/in/niken-goswami-6bb231193/)
 * LinkedIn: [@Hunaid Nakhuda](https://www.linkedin.com/in/hunaid-nakhuda-66543b1aa/)
