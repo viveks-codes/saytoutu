@@ -34,7 +34,10 @@ def view():
 	df.drop_duplicates(subset ="confession",keep = "last", inplace = True)
 	df["year"].fillna("9", inplace = True)
 	df['year'] = df['year'].astype(int)
+	#if year is 9, then it is replace it with the current year
+	df["year"] = df["year"].replace(9,'Not want to mention')
 	df['dept'] = df['dept'].replace(['FALSE'],['Not want to mention'])
+	# if year is int 9, then it is not replace it with 'Not want to mention'
 	#preprocessing end
 	df = df.reset_index(drop=True)
 	df = df.reindex(index=df.index[::-1])
